@@ -18,7 +18,7 @@ from pypdf import PdfReader
 # --------------------------------------------------------------------------
 # Config
 # --------------------------------------------------------------------------
-DEFAULT_MODEL = "gemini-2.5-flash"  # override with GEMINI_MODEL in secrets/env
+DEFAULT_MODEL = "gemini-3.8-flash"  # override with GEMINI_MODEL in secrets/env
 MAX_RESUME_CHARS = 20000
 MAX_JD_CHARS = 8000
 MIN_TEXT_CHARS = 200
